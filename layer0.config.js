@@ -2,6 +2,7 @@
 // You should commit this file to source control.
 module.exports = {
   connector: "@layer0/nuxt",
+  includeNodeModules: true,
   backends: {
     origin: {
       domainOrIp: "example.com",

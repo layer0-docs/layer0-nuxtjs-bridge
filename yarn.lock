@@ -1282,7 +1282,7 @@
     upath "^2.0.1"
     vue-template-compiler "^2.6.14"
 
-"@nuxt/config-edge@2.16.0-27253456.4a986da8":
+"@nuxt/config-edge@2.16.0-27253456.4a986da8", "@nuxt/config@npm:@nuxt/config-edge":
   version "2.16.0-27253456.4a986da8"
   resolved "https://registry.yarnpkg.com/@nuxt/config-edge/-/config-edge-2.16.0-27253456.4a986da8.tgz#9c27162dffa48048c230a0e37a5aae1314ecff70"
   integrity sha512-Rxr1zE+bCp7BwX5PyAu9cNtlKesdz0npH6sD5iybvUWWG7vIrMle9I3XkuMtcsGGEfuYEDZOQJsSLE4ncuJuzg==
@@ -1297,7 +1297,7 @@
     std-env "^2.3.1"
     ufo "^0.7.9"
 
-"@nuxt/core-edge@2.16.0-27253456.4a986da8":
+"@nuxt/core-edge@2.16.0-27253456.4a986da8", "@nuxt/core@npm:@nuxt/core-edge":
   version "2.16.0-27253456.4a986da8"
   resolved "https://registry.yarnpkg.com/@nuxt/core-edge/-/core-edge-2.16.0-27253456.4a986da8.tgz#e0361bd9e208778f1062dba5797dc8e14bea0d43"
   integrity sha512-oqmvoPX/UemzDTJWOAoFKzEzTxoI6S8vfmn2iA4p3XWqAxMD9RTyIjUCb+HRHE8CuUEm+PboQ8FYZm7C00zbnA==
@@ -7732,7 +7732,7 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-edge@latest:
+"nuxt@npm:nuxt-edge":
   version "2.16.0-27253456.4a986da8"
   resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.16.0-27253456.4a986da8.tgz#27c2ffc53e1eea87c24f091ffc873e74ea9102df"
   integrity sha512-FTbQtEh6rsHCeZxiZiJxGELm+BxBAcXADoHFFKW0sP9nZ/+Cn+5Kr0Kf+9rbHnf3fwZAlYaYgrynzwNBJUQpTQ==
