@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "dev": "nuxt dev",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "name": "nuxt-bridge-test",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@layer0/nuxt": "^3.17.1",
+    "core-js": "^3.15.1",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^3.17.1",
+    "@layer0/core": "^3.17.1",
+    "@layer0/devtools": "^3.17.1",
+    "@layer0/prefetch": "^3.17.1",
+    "@layer0/vue": "^3.17.1",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge"
+  }
+}
