@@ -1,5 +1,7 @@
 # nuxt-bridge-test
 
+Configured to deploy a `nuxt.js` project using [Nuxt3 Bridge](https://v3.nuxtjs.org/getting-started/bridge)
+
 ## Build Setup
 
 ```bash
@@ -17,53 +19,34 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Layer0
 
-## Special Directories
+### Run the Nuxt.js app locally on Layer0
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Run the Nuxt.js app with the command:
 
-### `assets`
+```bash
+npm run layer0:dev
+```
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+Load the site: http://127.0.0.1:3000
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+### Testing production build locally with Layer0
 
-### `components`
+You can do a production build of your app and test it locally using:
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+```bash
+layer0 build && layer0 run --production
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+Setting --production runs your app exactly as it will be uploaded to the Layer0 cloud using serverless-offline.
 
-### `layouts`
+## Deploying to Layer0
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+Deploying requires an account on Layer0. [Sign up here for free](https://app.layer0.co/signup). Once you have an account, you can deploy to Layer0 by running the following in the root folder of your project:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+```bash
+layer0 deploy
+```
 
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+See [deploying](https://docs.layer0.co/guides/deploying) for more information.
