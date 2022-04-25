@@ -21,7 +21,7 @@
     "@layer0/devtools": "^4.6.0",
     "@layer0/nuxt": "^4.6.0",
     "@layer0/prefetch": "^4.6.0",
-    "@layer0/vue": "^4.6.0",
+    "@layer0/vue": "^4.13.8",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxt/config": "npm:@nuxt/config-edge",
     "@nuxt/core-edge": "^2.16.0-27322574.c1d02ea3",
