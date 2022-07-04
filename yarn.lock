@@ -1105,10 +1105,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/vue@^4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@layer0/vue/-/vue-4.6.0.tgz#444a3f261c8134b42b0c29551795b2220a8b2625"
-  integrity sha512-ABzuHxq/pLWfPTPm61ETCTrNH1drs3bqCrnvuL3C1PolL08qxTjnMKIxeGlmGd3f/MJbAFcVHe6q9ZV/sKRRQQ==
+"@layer0/vue@^4.15.6":
+  version "4.15.6"
+  resolved "https://registry.yarnpkg.com/@layer0/vue/-/vue-4.15.6.tgz#b21e68784624eb10a5069d0e496106350ec896a0"
+  integrity sha512-6WIsKlZMZu2HzFAGF1Awd5TwP8hG88GDAa3WZX4gPoWLRLthzIyyjH1EVYju0G9m3WuicU9oHR0cJBakduaLDQ==
 
 "@mapbox/node-pre-gyp@^1.0.5":
   version "1.0.7"
