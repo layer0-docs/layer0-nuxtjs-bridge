@@ -1076,12 +1076,12 @@
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@layer0/nuxt@^4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@layer0/nuxt/-/nuxt-4.6.0.tgz#b038718f96d7601156fad897754806f774e3f89b"
-  integrity sha512-Bp1Hqinzx3n6q1Evq6was9ZfFHKURxgLqKojg+3UJrkWTabYFdlVAg+BG/7CDDo/dsw3IXiPkr6+u7fq5O2JzA==
+"@layer0/nuxt@^4.15.7":
+  version "4.15.7"
+  resolved "https://registry.yarnpkg.com/@layer0/nuxt/-/nuxt-4.15.7.tgz#876c1d5f50fe8080511b667d39ac7cb7967815d0"
+  integrity sha512-ZYD2RglCCGei5g1xj1G50YtW4u0CNtvi01bWqiEFbnojfdl43h4L9GcSla/JRtEa5ORiysKwlGKhSDm4aYijVQ==
   dependencies:
-    chalk "^3.0.0"
+    chalk "^4.1.2"
     content-type "^1.0.4"
     cross-spawn "^7.0.3"
     fs-extra "^8.1.0"
