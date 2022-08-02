@@ -19,7 +19,7 @@
     "@layer0/cli": "^4.6.0",
     "@layer0/core": "^4.6.0",
     "@layer0/devtools": "^4.6.0",
-    "@layer0/nuxt": "^4.6.0",
+    "@layer0/nuxt": "^4.17.1",
     "@layer0/prefetch": "^4.6.0",
     "@layer0/vue": "^4.6.0",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
